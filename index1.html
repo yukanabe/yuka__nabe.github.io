@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>コンサートマップ</title>
+        <meta name="map" content="コンサート情報をマップ上で"
+        <link rel="styleshhet" href="style.css">
+        <script src="./index.js"></script>
+    </head>
+    <div id="concert" class="concert information">
+        <header class="page-header wrapper">
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="concert1.html">concert1</a></a></li>
+                </ul>
+            </nav>
+        </header>
+        
+    <section id="location">
+        <div class="wrapper">
+            <div class="location-info">
+                <h1 class="sub-title">コンサート１</h1>
+                <p>
+                    住所 : サントリーホール東京都港区赤坂１丁目１３−１
+                </p>
+                <h2 class="sub-title">コンサート２</h2>
+                <p>
+                    住所 : 東京都千代田区紀尾井町６−５
+                </p>
+            </div>
+            <div class="location-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.4067733388147!2d139.73867041744384!3d35.66698480000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b9ab22a0aeb%3A0x3654d78b73533fd2!2z44K144Oz44OI44Oq44O844Ob44O844Or!5e0!3m2!1sja!2sjp!4v1707568860410!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.793659419986!2d139.7325415!3d35.6820824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c62ae094bf5%3A0xb026a61b6a5e6e04!2z57SA5bC-5LqV44Ob44O844Or!5e0!3m2!1sja!2sjp!4v1707569096957!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <body>
+        <div id="map"></div>
+        <script src="index.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcoNaIxWV_9HYdikQE7ZHxx61M-NA0eps&callback=initMap" async defer></script>
+    </body>
+</html>
